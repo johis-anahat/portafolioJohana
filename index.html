@@ -4,19 +4,24 @@
     <meta charset="utf-8">
     <title>JOHYSAN</title>
     <link rel="icon" href="imagenes/logo4.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/estilo.css">
   </head>
   <body>
     <header class="header">
-      <div>
+      <div class="container">
         <figure class="logo">
-          <img src="imagenes/logocreative.jpg" title="Logo Creative" width="300px" height="200px">
+          <img src="imagenes/logocreative.jpg"  title="Logo Creative" width="150px" height="100px">
         </figure>
-      </div>
       <nav class="menu">
         <ol>
           <li>
-            <a href="./portafolio/port.html">Portafolio</a>
+            <a href="#portafolio">Portafolio</a> 
+              <!--
+            <a href="./portafolio/port.html">Portafolio</a> -->
           </li>
           <li>
             <a href="#eventos">Experiencia</a>
@@ -29,68 +34,144 @@
           </li>
         </ol>
       </nav>
+      </div>
     </header>
     <section class="hero">
-      <h1>Hola!  Soy <strong> Johana Sanguino</strong> <br> Consultora
-        en <strong>Asuntos
-        Regulatorios</strong> con
-        <br>experiencia en el sector <strong>público y privado.</strong></h1>
-      <img src="imagenes/hero.jpg"  width="340" height="650">
-    <section id="portafolio" class="portfolio">
-      <h2>Portafolio (Servicios Destacados)</h2>
-        <article class="project">
-          <h3 class="project-title">Video Portafolio Servicios INVIMA</h3>
-          <h6 class="project-customers">Clientes Invima</h6>
-          <p class="project-date"><small><strong>Fecha:</strong>01/07/2012</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong>www.invima.gov.co</small></p>
-          <p class="project-description">Durante cinco (5) años trabajé en la
-          Subdirección de Registros Sanitarios del INVIMA tiempo durante el cual
-          participé en la implementación del Sistema de Gestión de Calidad -SGC-
-          através del levatamiento de  procesos y auditorias internas y externas.
-          Asi mismo atendiendo requerimientos directos de los usuarios INVIMA con
-          respecto a dudas,  quejas e inquietudes de sus tramites
-          relacionados con los grupos de alimentos, cosmeticos,
-          dispositivos médicos, medicamentos y suplementos dietarios.<br> <br>
+      <div class="container">
+        <h1> Hola!    Soy <strong> Johana Sanguino </strong>  Consultora
+          en  <strong> Asuntos   Regulatorios </strong>  con experiencia <strong>
+            en el sector público y privado.</strong> <br><br>
+          <small> Experta consultora en temas regulatorios INVIMA, SIC, AUNAP e ICA,
+            en general todo lo implícito en el cumplimiento de la
+              normativa colombiana para la importación y fabricación
+              de productos para el consumo humano.</small></h1>
+         <img class="hero-image" src="imagenes/herohero.jpg"  width="340" height="350">
+        </section>
+      </div>
 
-          Mi marca personal consiste en un trabajo colaborativo, en un trabajo
-          en equipo para de esta manera lograr siempre resultados con innovación,
-          uno  de mi clientes BIOINNOVA se ha destacado por su producto innovador
-          BIOKOKO, producto que cuenta con registro sanitario INVIMA y es plenamente
-          reconocido en el mercado nacional.</p>
-          <figure class="project-imageContainer">
-            <img class="project-image" width="300px" height="300px"src="imagenes/biokokoko.jpg" alt="Biokoko">
-          </figure>
-        </article>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+
+        <h2>Portafolio (Servicios Destacados)</h2>
+          <article class="project">
+            <div class="project-details">
+              <h3 class="project-title">Video Portafolio Servicios INVIMA</h3>
+              <h5 class="project-customers">Clientes Invima</h5>
+              <p class="project-date"><small><strong>Fecha:</strong>01/07/2012</small></p>
+              <p class="project-url"><small><strong>Puedes verlo en:</strong>www.invima.gov.co</small></p>
+              <p class="project-description">Durante cinco (5) años trabajé en la
+              Subdirección de Registros Sanitarios del INVIMA tiempo durante el cual
+              participé en la implementación del Sistema de Gestión de Calidad -SGC-
+              através del levatamiento de  procesos y auditorias internas y externas.
+              Asi mismo atendiendo requerimientos directos de los usuarios INVIMA con
+              respecto a dudas,  quejas e inquietudes de sus tramites
+              relacionados con los grupos de alimentos, cosmeticos,
+              dispositivos médicos, medicamentos y suplementos dietarios.<br> <br>
+
+              Mi marca personal consiste en un trabajo colaborativo, en un trabajo
+              en equipo para de esta manera lograr siempre resultados con innovación,
+              uno  de mi clientes BIOINNOVA se ha destacado por su producto innovador
+              BIOKOKO, producto que cuenta con registro sanitario INVIMA y es plenamente
+              reconocido en el mercado nacional.</p>
+            </div>
+            <figure class="project-imageContainer">
+              <img class="project-image" width="300px" height="300px"src="imagenes/biokokoko.jpg" alt="Biokoko">
+            </figure>
+          </article>
+      </div>
     </section>
-    <section id="eventos">
-        <h2>Más sobre mi experiencia</h2>
-      <article class="event">
-        <figure class="event-labimageContainer">
-          <img class="event-labimage"src="imagenes/laboratorio.jpg" title="Análisis de Labotorio" width="260px" height="300px">
-        </figure>
-        <h3 class="event-title">Capacitación Cámara de Comercio 2020</h3>
-        <p>Networking y actualzación permanente en la Cámara de comercio</p>
-        <figure class="event-ccbimageContainer">
+      <div class="container">
+        <h2 class="event-list-title">Más sobre mi experiencia</h2>
+      <section id="eventos" class="event-list">
+        <article class="event">
+          <figure class="event-labimageContainer">
+            <img class="event-labimage"src="imagenes/laboratorio.jpg" title="Análisis de Labotorio" width="260px" height="300px">
+          </figure>
+        <div class="event-details">
+          <h3 class="event-title">Capacitación en Biotecnlogía </h3>
+          <p class="event-description">Investigación permentante en procesos biotecnologicos e innovación</p>
+          <a  class="process-url"href="https://www.youtube.com/watch?v=vJM1RrbaVkM" target="_blank">Ver video</a>
+        </div>
+        </article>
+
+        <article class="event">
+          <figure class="event-labimageContainer">
+            <img class="event-labimage"src="imagenes/laboratorio.jpg" title="Análisis de Labotorio" width="260px" height="300px">
+          </figure>
+        <div class="event-details">
+          <h3 class="event-title">Capacitación en Biotecnología</h3>
+          <p class="event-description">Investigación permentante en procesos biotecnologicos e innovación</p>
+          <a  class="process-url"href="https://www.youtube.com/watch?v=vJM1RrbaVkM" target="_blank">Ver video</a>
+        </div>
+        </article>
+        <article class="event">
+          <figure class="event-labimageContainer">
+            <img class="event-labimage"src="imagenes/laboratorio.jpg" title="Análisis de Labotorio" width="260px" height="300px">
+          </figure>
+        <div class="event-details">
+          <h3 class="event-title">Capacitación en Biotecnología</h3>
+          <p class="event-description">Investigación permentante en procesos biotecnologicos e innovación</p>
+          <a  class="process-url"href="https://www.youtube.com/watch?v=vJM1RrbaVkM" target="_blank">Ver video</a>
+        </div>
+        </article>
+        <article class="event">
+          <figure class="event-labimageContainer">
+            <img class="event-labimage"src="imagenes/laboratorio.jpg" title="Análisis de Labotorio" width="260px" height="300px">
+          </figure>
+        <div class="event-details">
+          <h3 class="event-title">Capacitación en Biotecnología</h3>
+          <p class="event-description">Investigación permentante en procesos biotecnologicos e innovación</p>
+          <a  class="process-url"href="https://www.youtube.com/watch?v=vJM1RrbaVkM" target="_blank">Ver video</a>
+        </div>
+        </article>
+
+      </div>
+
+    <!--    <figure class="event-ccbimageContainer">
           <img class="event-ccbimage" src="imagenes/agil2.jpg" title="Metodo de innovación" width="360px" height="300px"> <br>
         </figure>
-      </article>
+        <div class="event-details">
+          <h3 class="event-title">Capacitación Cámara de Comercio 2020</h3>
+          <p>Networking y actualzación permanente en la Cámara de comercio</p>
+        >-->
+
       </section>
-      <section id="hobbies">
-        <h2>En mi tiempo libre</h2>
-        <article class="hobbi">
-          <h3 class="hobbi-title">Amo la poesa</h3>
-          <p class="hobbi-description">En mi tiempo libro amo leer poesiay recitarla en francés</p>
-          <a  class="hobbi-url"href="https://www.youtube.com/watch?v=I-Sak-LRvhM" target="_blank">Ver video</a>
-        </article>
-      </section>
+      <div class="container">
+        <section id="hobbies">
+          <h2>En mi tiempo libre</h2>
+          <article class="hobbi">
+            <h3 class="hobbi-title">Amo la poesa</h3>
+            <p class="hobbi-description">En mi tiempo libro amo leer poesiay recitarla en francés</p>
+            <a  class="hobbi-url"href="https://www.youtube.com/watch?v=I-Sak-LRvhM" target="_blank">Ver video</a>
+          </article>
+        </section>
+      </div>
+
     <section id="contacto" class="contact">
-      <form action="/suscripción/" class="form-email">
-        <h3>¿Necesitas una asesoria?</h3>
-        <label for="email"> Déjame tu email</label>
-        <input type="text" placeholder="Déjame tu email" id="email">
-        <button>Enviar</button>
-      </form>
-    </section>
-    <footer class="footer">Footer</footer>
+      <div class="container">
+
+        <form action="/suscripción/" class="form-email">
+          <h3>¿Necesitas una asesoria?</h3>
+          <label for="email"> Déjame tu email</label>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/JOHIS_ANAHAT" class="social-link twitter"></a>
+          <a href="https://www.facebook.com/johis.anahat" class="social-link facebook"></a>
+          <a href="https://github.com/johis-anahat"class="social-link github" ></a>
+          <a href="https://www.instagram.com/johysan/"class="social-link instagram"></a>
+        </div>
+      </section>
+      </div>
+
+    <footer class="footer">
+        <div>
+          <p>Designed by Johis Anahat</p>
+        </div>
+          <div>
+          <p>Date desing 2020</p>
+        </div>
+    </footer>
   </body>
 </html>

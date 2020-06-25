@@ -3,3 +3,341 @@ header{
 }
 /*Selector descendente */
 /*body header div nav ol li a */
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h2
+{
+  color: darkblue;
+  font-family:  'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+h3
+h5
+{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15px;
+}
+h6{
+  font-family: 'Fjalla One', sans-serif;
+}
+h1
+{
+  font-family: 'Fjalla One; 'Balsamiq Sans'
+  font-family: 'Staatliches', cursive;
+  font-family:
+  font-size: 50px;
+  /*line-height: 1.5;*/
+  /*letter-spacing: 1px;*/
+  color: #ffff;
+  margin:  10px 50px 70px 10px;
+  /*padding-right: 200px;*/
+  width: auto;
+  height: auto;
+  display:inline;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+h1 strong{
+  color: #E2C32B
+}
+
+.hero{
+  height: auto;
+  /*background-image: url("../imagenes/herohero.jpg");
+    background-size: contain;
+      background-repeat: no-repeat;
+      background-position-x:right;*/
+  background-color: #5A4CCD;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image{
+  object-fit: cover;
+}
+
+.footer{
+  color: white;
+  background-color: #6437C4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* 5A4CCD  otro #5A4CCD; y otro #2A6DBF*/
+.header{
+  background-color: #2A6DBF;
+  color:  #ffff;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+
+
+.header a {
+  color: #ffff;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0  10px;
+}
+
+.portfolio{
+  background-color: #D2C9F7;
+  padding: 20px;
+}
+
+.project {
+  /*border-top: 15px;
+  border-bottom: 15px;
+  border-right: 15px;
+  border-left: 15px;
+  border-color: blue;
+  border-style: solid;*/
+  background-color: white;
+  border: 5px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.project-details{
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+}
+
+.project-imageContainer{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  image-size: contain;
+}
+
+
+.project-title{
+  font-size: 30px;
+  margin-top: 0;
+  margin border-bottom: 10px;
+}
+
+.project-customers,{
+    margin: 5px 0;
+    font-family: "Fjalla One";
+    font-size: 20px;
+}
+
+.project-date,
+.project-url{
+  margin: 5px 0;
+}
+
+.project-description{
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.project strong{
+    font-family: "Fjalla One";
+}
+
+.event{
+  border: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.flexbox {
+  display: flex;
+  height: 100px;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  /*justify-content:space-around;*/
+  justify-content:flex-start;
+  align-items: center;
+  border: 1px solid;
+}
+
+.box{
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  /*margin: 5px;*/
+  border: 1px solid red;
+  flex-shrink: 0;
+
+
+}
+ol,
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure{
+  margin: 0
+}
+
+.menu { /*.menu hereda de . header */
+  height: inherit;
+}
+
+.header ol {/* .header ol hereda de .menu */
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {/* .header ol li hereda de .header ol */
+  height: inherit;
+}
+
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.event-list-title{
+  margin-left: 20px;
+}
+
+.event{
+  margin: 10px;
+  width: 400px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f4fbff;
+}
+
+.event-labimage{
+width: 480px;
+height: 200px;
+object-fit: contain;
+}
+
+.event-details {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description{
+  text-align: left;
+}
+
+.process-url{
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.contact{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0  10px;
+}
+.social-link.twitter{
+  background-image: url('../imagenes/twitblack.svg');
+
+}
+
+.social-link.facebook{
+  background-image: url('../imagenes/face.svg');
+}
+
+.social-link.github{
+  background-image: url('../imagenes/github.svg');
+}
+
+.social-link.instagram{
+  background-image: url('../imagenes/instagra.svg');
+}
+
+.form-email input{
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px 20px 5px 25px;
+  background-image: url('../imagenes/mail.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position-y:center;
+  background-position-x: 5px;
+}
+
+.form-email button{
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px 30px;
+  width: 100px;
+  margin: 10px auto 0;
+}
+
+.form-email h3{
+  font-family:  'Source Sans Pro';
+}
+
+.container {
+  /*border: 1px solid #000000;*/
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap:inherit;
+}
+
+.logo{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  image-size: contain;
+}
